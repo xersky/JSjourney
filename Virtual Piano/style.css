@@ -1,0 +1,40 @@
+html{
+    background: bisque;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.black-keys kbd{
+    position: relative;
+    display: inline-block;
+    border: 2px solid black;
+    background: black;
+    color: white;
+    margin-left: -5px;
+    height: 100px;
+    width: 25px;
+}
+
+.black-keys{
+    position: relative;
+    left: -330px;
+    top: -40px;
+}
+
+.white-keys kbd{
+    height: 150px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+    background: white;
+    margin-left: -5px;
+    padding-top: 8%;
+}
+
